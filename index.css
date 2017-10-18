@@ -1,0 +1,88 @@
+
+#body-color{
+	background-color: pink;
+}
+
+#prodiv{
+	position: absolute;
+	top: 20px;
+	left: 10px;
+}
+
+#probut{
+	font-family: 'Lobster';
+	font-size: 30px;
+	color: white;
+	background-color: black;
+	padding: 10px;
+	border-color: white;
+	border-style: solid;
+}
+
+#probut:hover{
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	border-style: solid;
+	border-color: black;
+}
+
+#quoteblock{
+	background-color: white;
+	border-radius: 10px;
+	padding: 30px;
+	width: 800px;
+	color: pink;
+	position: fixed;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+}
+
+
+.quotetext{
+	text-align: center;
+	font-family: "Helvetica";
+	font-weight: bold;
+	font-size: 30px;
+	margin: 10px;
+}
+
+.authortext{
+	text-align: right;
+	font-family: "Helvetica";
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#quotebutton{
+	border-style: none;
+	background-color: pink;
+	font-family: "Helvetica";
+	font-size: 20px;
+	font-weight: bold;
+	color:white;
+	border-radius: 10px;
+}
+
+#quotebutton:focus{
+	outline: none;
+}
+
+
+#sharetwit{
+	border-style: none;
+	background-color: pink;
+	font-family: "Helvetica";
+	font-size: 20px;
+	font-weight: bold;
+	color:white;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+#sharetwit:hover{
+	color: white;
+	text-decoration: none;
+}
