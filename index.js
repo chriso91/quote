@@ -6,7 +6,7 @@ $(document).ready(function(){
 
 	function getNewQuote(){							//vanilla javascript function creation code
 		$.ajax({
-			url: 'http://api.forismatic.com/api/1.0/', 
+			url: 'https://api.forismatic.com/api/1.0/', 
 			jsonp: 'jsonp',
 			dataType: 'jsonp',
 			data:{									//could also type in rest of url this is neater
